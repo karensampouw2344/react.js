@@ -1,3 +1,7 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jxs'
+import './index.css'
 function Car(props) {
   return <li>I am a { props.brand }</li>;
 }

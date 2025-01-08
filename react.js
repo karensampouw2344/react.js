@@ -1,4 +1,13 @@
-import React from "react";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jxs'
+import './index.css'
+
+ReactDOM.render(<App/>,document.getElementById('root')), render(
+    <React.StrictMode>
+        <App/>
+    </React.StrictMode>
+)
 
 function FruitList() {
     const fruits = [
